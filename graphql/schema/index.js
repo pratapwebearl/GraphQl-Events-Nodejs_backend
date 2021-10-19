@@ -9,11 +9,11 @@ type Booking{
 }
 type Event{
     _id : ID!
-    title:String!
-    description:String!
-    price:String!
-    date:String!
-    creator:User!
+    title: String!
+    description: String!
+    price: String!
+    date: String!
+    creator: User!
 }   
 type User{
     _id:ID!
